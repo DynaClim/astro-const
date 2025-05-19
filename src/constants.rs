@@ -46,13 +46,13 @@ pub const JUPITER_MASS: f64 = SOLAR_MASS / SOLAR_MASS_OVER_JUPITER_MASS;
 
 /// Moon volumetric mean radius (m)
 /// [NASA fact sheet](https:///nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html)
-pub const MOON_RADIUS: f64 = 1737.4E3;
+pub const MOON_RADIUS: f64 = 1737.4e3;
 /// Solar Volumetric mean radius (m)
 /// [NASA fact sheet](https:///nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html)
 pub const SOLAR_RADIUS: f64 = 6.957e8;
-/// Solar luminosity (10^24 J/s-1)
+/// Solar luminosity (J/s-1)
 /// [NASA fact sheet](https:///nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html)
-pub const SOLAR_LUMINOSITY: f64 = 382.8;
+pub const SOLAR_LUMINOSITY: f64 = 382.8e24;
 /// Solar Sidereal rotation period (hrs)
 /// [NASA fact sheet](https:///nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html)
 pub const SOLAR_PERIOD_HR: f64 = 609.12;
