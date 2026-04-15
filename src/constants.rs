@@ -66,6 +66,9 @@ pub const SOLAR_ANGULAR_VELOCITY: f64 = TWO_PI / (SOLAR_PERIOD * SECONDS_IN_DAY)
 // ------------- ------------- -------------
 // Sourced from NIST
 
+/// Speed of light in vacuum (m/s)
+/// [NIST CODATA 2018 exact value](https:///physics.nist.gov/cgi-bin/cuu/Value?c)
+pub const SPEED_OF_LIGHT: f64 = 299_792_458.0;
 /// Perfect Gas Constant
 /// [2022 CODATA recommended value](https:///physics.nist.gov/cgi-bin/cuu/Value?r|search_for=physchem_in!)
 pub const GAS_CONSTANT: f64 = 8.314_462_618;
