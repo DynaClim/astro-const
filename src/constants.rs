@@ -84,10 +84,15 @@ pub const PROTON_MASS: f64 = 1.672_621_925_95e-27;
 pub const BOLTZMANN_CONST: f64 = 1.380_649e-23;
 /// Solar Rossby number
 /// [Ardestani et al. 2017](https:///doi.org/10.1093/mnras/stx2039)
-pub const ROSSBY_SUN: f64 = 1.113;
+pub const ROSSBY_SUN_ARDESTANI: f64 = 1.113;
 /// Rossby number at saturation
 /// [Ardestani et al. 2017](https:///doi.org/10.1093/mnras/stx2039)
-pub const ROSSBY_SATURATION: f64 = 0.09;
+pub const ROSSBY_SATURATION_ARDESTANI: f64 = 0.09;
+/// Solar convective turnover timescale (s), computed with the STAREVOL data from
+/// Louis Amard (reference TBA): the turnover time taken at half a pressure scale height
+/// above the base of the convective envelope (tauc_hp), interpolated at the solar age
+/// 4.567 Gyr; equals 20.51 days.
+pub const CONVECTIVE_TURNOVER_TIME_SUN_STAREVOL_2026: f64 = 1.7725e6;
 /// Magnetic field at the surface of the Sun (T)
 /// [Vidotto et al. 2014](https:///doi.org/10.1093/mnras/stu728)
 pub const SOLAR_SURFACE_MAGNETIC_FIELD: f64 = 2e-4;
