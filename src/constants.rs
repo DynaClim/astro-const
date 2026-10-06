@@ -93,6 +93,13 @@ pub const ROSSBY_SATURATION_ARDESTANI: f64 = 0.09;
 /// above the base of the convective envelope (tauc_hp), interpolated at the solar age
 /// 4.567 Gyr; equals 20.51 days.
 pub const CONVECTIVE_TURNOVER_TIME_SUN_STAREVOL_2026: f64 = 1.7725e6;
+/// Solar convective turnover timescale (s) from the
+/// [Sadeghi Ardestani et al. 2017](https:///doi.org/10.1093/mnras/stx2039) fit (Eq. A1)
+/// evaluated at the convective-envelope mass fraction of the STAREVOL 1 Msun track
+/// distributed with spiroid (savgol_10.csv) at the solar age 4.567 Gyr:
+/// m_conv = 0.01556, giving 21.42 days. Replaces the fit at the fixed fraction 0.02
+/// (24.61 days) so that the reference is the same model's own solar value.
+pub const CONVECTIVE_TURNOVER_TIME_SUN_STAREVOL_2017: f64 = 1.8509e6;
 /// Magnetic field at the surface of the Sun (T)
 /// [Vidotto et al. 2014](https:///doi.org/10.1093/mnras/stu728)
 pub const SOLAR_SURFACE_MAGNETIC_FIELD: f64 = 2e-4;
